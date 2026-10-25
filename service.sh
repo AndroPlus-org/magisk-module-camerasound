@@ -22,4 +22,6 @@ set_prop
     sleep 2
   done
   [ "$(getprop audio.camerasound.force)" = "false" ] || set_prop
+  # Overlay is non-static (isStatic crashes webview_zygote), so it starts disabled
+  cmd overlay enable me.phh.treble.overlay.camera.sound
 ) &
