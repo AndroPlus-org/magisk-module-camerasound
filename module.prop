@@ -1,6 +1,6 @@
 id=camerasound-mod
 name=Force disable camera sound
-version=v04
-versionCode=4
+version=v05
+versionCode=5
 author=AndroPlus
 description=Force disable camera sound (Magisk / KernelSU / KernelSU Next / APatch)
